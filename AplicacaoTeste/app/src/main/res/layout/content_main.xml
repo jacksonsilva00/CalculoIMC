@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivity"
+    android:background="#0c37da">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:text="CELULAR"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:drawableTop="@drawable/caixa1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCaixa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acesse sua Conta"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:id="@+id/textAcess"
+        android:drawableTop="@drawable/icone_cadeado1"
+        android:layout_below="@+id/textCaixa"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loterias CAIXA"
+        android:textColor="#ffffff"
+        android:id="@+id/textView3"
+        android:drawableTop="@drawable/trevo1"
+        android:layout_below="@+id/textCaixa"
+        android:layout_alignLeft="@+id/textrede"
+        android:layout_alignStart="@+id/textrede"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simulador de Habitação"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:drawableTop="@drawable/house1"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/textrede"
+        android:layout_toStartOf="@+id/textrede"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rede de Atendimento"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:drawableTop="@drawable/chat_icone1"
+        android:id="@+id/textrede"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefones CAIXA"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/telefone1"
+        android:id="@+id/textTel"
+        android:textAlignment="center"
+        android:layout_alignTop="@+id/texCal"
+        android:layout_alignLeft="@+id/textAcess"
+        android:layout_alignStart="@+id/textAcess" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendário Social"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:drawableTop="@drawable/calendario1"
+        android:id="@+id/texCal"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/textrede"
+        android:layout_alignLeft="@+id/textrede"
+        android:layout_alignStart="@+id/textrede" />
+
+</RelativeLayout>
