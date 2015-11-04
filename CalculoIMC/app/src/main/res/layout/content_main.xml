@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/peso"
+        style="@style/Tema" />
+    <EditText
+        android:id="@+id/edtPeso"
+        android:inputType="numberDecimal"
+        style="@style/Tema1"
+        />
+    <TextView
+        style="@style/Tema"
+        android:text="@string/altura"
+        />
+    <EditText
+        android:id="@+id/edtAltura"
+        android:inputType="numberDecimal"
+        style="@style/Tema1"
+        />
+    <Button
+        android:id="@+id/btnCalcular"
+        style="@style/Tema"
+        android:text="@string/calcular"
+        />
+    <TextView
+        style="@style/Tema"
+        android:id="@+id/txtResult"
+        />
+    <TextView
+        style="@style/Tema"
+        android:id="@+id/txtPeso"
+        />
+
+
+
+</LinearLayout>
