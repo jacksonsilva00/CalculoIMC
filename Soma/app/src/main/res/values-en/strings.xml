@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Soma</string>
+    <string name="action_settings">Settings</string>
+    <!-- strings complementares -->
+    <string name="primeiro_numero">First Number</string>
+    <string name="segundo_numero">Second Number</string>
+    <string name="botao_soma">Sum</string>
+    <string name="total">Operation result is : </string>
+</resources>

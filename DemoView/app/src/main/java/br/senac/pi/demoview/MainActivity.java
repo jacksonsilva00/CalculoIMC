@@ -1,5 +1,6 @@
 package br.senac.pi.demoview;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -32,7 +33,44 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnImageViewDemo).setOnClickListener(abrirImageViewDemo());
         findViewById(R.id.btnDemoView).setOnClickListener(abrirDemoView());
         findViewById(R.id.btnImageButton).setOnClickListener(abrirImageButton());
+        findViewById(R.id.btnCheckBox).setOnClickListener(abrirCheckBox());
+        findViewById(R.id.btnProgressDemo).setOnClickListener(abrirProgressDemo());
+        findViewById(R.id.btnAlertDialog).setOnClickListener(abrirAlertDialog());
+        findViewById(R.id.btnScrollViewDemo).setOnClickListener(abrirScrollViewDemo());
 
+    }
+    private View.OnClickListener abrirScrollViewDemo(){
+        return  new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this,ScrellViewDemoActivicty.class);
+                startActivity(intent);
+            }
+        };
+
+    }
+    private View.OnClickListener abrirAlertDialog(){
+        return new View.OnClickListener(){
+          public void onClick(View v){
+              Intent intent = new Intent(MainActivity.this,AlertDialogDemo.class);
+              startActivity(intent);
+          }
+        };
+    }
+    private View.OnClickListener abrirProgressDemo(){
+        return new View.OnClickListener(){
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ProgressDemo.class);
+                startActivity(intent);
+            }
+        };
+    }
+    private View.OnClickListener abrirCheckBox(){
+        return new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this,CheckBox.class);
+                startActivity(intent);
+            }
+        };
     }
     private View.OnClickListener abrirDemoView(){
         return new View.OnClickListener(){

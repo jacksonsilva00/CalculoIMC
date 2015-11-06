@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
                 TextResult.setText(getString(R.string.resultado).toString()+" "+result);
                 TextView TextoPeso = (TextView) findViewById(R.id.txtPeso);
                 if (result <= 18.5){
-                    TextoPeso.setText(getString(R.string.peso1).toString());
-                }else if((result >= 18.6) & (result <= 24.9)){
+                    TextoPeso.setText(getString(R.string .peso1).toString());
+                }else if((result >= 18.6) && (result <= 24.9)){
                     TextoPeso.setText(getString(R.string.peso2).toString());
-                }else if((result >= 25.0) & (result <= 29.9)){
+                }else if((result >= 25.0) && (result <= 29.9)){
                     TextoPeso.setText(getString(R.string.peso3).toString());
-                }else if((result >= 30.0) & (result <= 34.9)){
+                }else if((result >= 30.0) && (result <= 34.9)){
                     TextoPeso.setText(getString(R.string.peso4).toString());
-                }else if((result >= 35.0) & (result <= 39.9)){
+                }else if((result >= 35.0) && (result <= 39.9)){
                     TextoPeso.setText(getString(R.string.peso5).toString());
                 }else if((result >= 40)){
                     TextoPeso.setText(getString(R.string.peso6).toString());

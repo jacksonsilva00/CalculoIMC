@@ -7,4 +7,8 @@
     <string name="title_activity_image_view">ImageView</string>
     <string name="title_activity_main2">DemoView</string>
     <string name="title_activity_image_button">ImageButton</string>
+    <string name="title_activity_check_box">CheckBox</string>
+    <string name="title_activity_progress_demo">ProgressDemo</string>
+    <string name="title_activity_alert_dialog_demo">AlertDialogDemo</string>
+    <string name="title_activity_screll_view_demo_activicty">ScrellViewDemoActivicty</string>
 </resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjetoTeste</string>
+    <string name="action_settings">Settings</string>
+    <!-- strings do MainActivity -->
+    <string name="txtusuario">Usuario</string>
+    <string name="edtsenha">Senha</string>
+    <string name="btntext">Entrar</string>
+    <string name="title_activity_teste_soma">TesteSoma</string>
+    <!-- strings do Soma -->
+    <string name="Numero1">Digite o Primeiro Numero</string>
+    <string name="Numero2">Digite o Segundo Numero</string>
+    <string name="result">Resultado : </string>
+</resources>

@@ -16,7 +16,8 @@
     <!-- Estilos do App -->
     <style name="Tema" parent="AppTheme">
         <!--Estilos 1-->
-        <item name="android:color">@color/colorText</item>
+        <item name="colorPrimary">@color/colorEdt</item>
+        <item name="android:color">@color/colorText</item>-
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>

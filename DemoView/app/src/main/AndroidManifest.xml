@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.senac.pi.demoview" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -41,6 +43,26 @@
         <activity
             android:name=".ImageButton"
             android:label="@string/title_activity_image_button"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".CheckBox"
+            android:label="@string/title_activity_check_box"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ProgressDemo"
+            android:label="@string/title_activity_progress_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AlertDialogDemo"
+            android:label="@string/title_activity_alert_dialog_demo"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ScrellViewDemoActivicty"
+            android:label="@string/title_activity_screll_view_demo_activicty"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
