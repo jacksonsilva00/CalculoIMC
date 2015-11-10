@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CadastroDemo</string>
+    <!-- strings -->
+    <string name="btnCadastro">Cadastro</string>
+    <string name="txtCarro">Carro</string>
+    <string name="txtFabricante">Fabricante</string>
+    <string name="visualizarcarro">seu carro é </string>
+    <string name="sucesso_db">Carro adicionado com sucesso!</string>
+    <string name="erro_db">Erro ao Adicionar</string>
 </resources>
