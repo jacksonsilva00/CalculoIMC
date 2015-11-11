@@ -7,4 +7,10 @@
     <string name="visualizarcarro">seu carro é </string>
     <string name="sucesso_db">Carro adicionado com sucesso!</string>
     <string name="erro_db">Erro ao Adicionar</string>
+    <string name="erro_registro">Erro ao se registrar</string>
+    <string name="listCarro">Listar Carros</string>
+    <string name="verCarro">Ver carros</string>
+    <string name="nome_carro"> Carro </string>
+    <string name="txtList">Lista dos Carros</string>
+    <string name="marca_carro"> Fabricante </string>
 </resources>

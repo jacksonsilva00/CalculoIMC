@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //findViewById(R.id.btnButton).setOnClickListener(carro());
+        findViewById(R.id.btnListarCarros).setOnClickListener(listcarros());
         Button btnCadastrarCarro = (Button) findViewById(R.id.btnButton);
         btnCadastrarCarro.setOnClickListener(new View.OnClickListener(){
 
@@ -44,6 +45,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    public View.OnClickListener listcarros(){
+        return new View.OnClickListener(){
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ListaCarrosActivity.class);
+                startActivity(intent);
+            }
+        };
     }
 
     /*public View.OnClickListener carro(){
