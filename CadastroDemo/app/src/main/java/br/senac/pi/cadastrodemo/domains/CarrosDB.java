@@ -35,7 +35,6 @@ public class CarrosDB extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        //C
 
     }
     public long save(Carro carro){
